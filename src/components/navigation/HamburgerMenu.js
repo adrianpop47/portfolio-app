@@ -11,7 +11,7 @@ const HamburgerMenu = () => {
   }
 
   return (
-    <div className="py-2 bg-black px-10 flex md:hidden">
+    <div className="py-2 bg-black px-10 flex md:hidden w-full fixed top-0">
       <div
         className={`flex flex-col space-y-10 text-center pt-20 mx-auto bg-black h-screen w-screen absolute top-0 right-0 ${
           menuIsOpen ? "translate-x-0" : "translate-x-full opacity-80"

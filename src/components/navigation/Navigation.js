@@ -3,7 +3,7 @@ import HamburgerMenu from "./HamburgerMenu";
 
 const Navigation = () => {
   return (
-    <nav className="z-10 shadow-md shadow-gray-800 sticky top-0 font-semibold">
+    <nav className="z-10 shadow-md shadow-gray-800 sticky font-semibold">
       <Menu />
       <HamburgerMenu />
     </nav>
